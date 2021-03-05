@@ -3,7 +3,11 @@ package server
 import (
 	"flag"
 	"github.com/sirupsen/logrus"
+<<<<<<< HEAD
 	"../blockexplorer/zmq"
+=======
+	"github.com/romanornr/blockexplorer/zmq"
+>>>>>>> 6077ea7947313fc0ee253740827be35e612bad62
 	"github.com/spf13/viper"
 	"html/template"
 	"net/http"
