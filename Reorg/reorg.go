@@ -6,7 +6,7 @@
 package Reorg
 
 import (
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/btcsuite/btcd/btcjson"
 	"github.com/romanornr/blockexplorer/insightjson"
 	"github.com/romanornr/blockexplorer/mongodb"

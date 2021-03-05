@@ -7,7 +7,7 @@ package Reorg
 
 import (
 	"fmt"
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"github.com/romanornr/blockexplorer/insightjson"
 	"github.com/romanornr/blockexplorer/mongodb"
 	"github.com/romanornr/blockexplorer/notification"

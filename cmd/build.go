@@ -6,7 +6,7 @@
 package main
 
 import (
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"github.com/romanornr/blockexplorer/blockdata"
 	"github.com/romanornr/blockexplorer/cmd/rebuilddb"
 	"github.com/romanornr/blockexplorer/mongodb"

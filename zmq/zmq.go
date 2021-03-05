@@ -2,7 +2,7 @@ package zeroMQ
 
 import (
 	"fmt"
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/btcsuite/btcd/btcjson"
 	"github.com/romanornr/blockexplorer/blockdata"
 	"github.com/romanornr/blockexplorer/mongodb"
