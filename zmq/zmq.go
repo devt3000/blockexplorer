@@ -2,11 +2,11 @@ package zeroMQ
 
 import (
 	"fmt"
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/btcsuite/btcd/btcjson"
-	"github.com/romanornr/blockexplorer/blockdata"
-	"github.com/romanornr/blockexplorer/mongodb"
-	"github.com/romanornr/blockexplorer/notification"
+	"github.com/devt3000/blockexplorer/blockdata"
+	"github.com/devt3000/blockexplorer/mongodb"
+	"github.com/devt3000/blockexplorer/notification"
 	"github.com/spf13/viper"
 	"github.com/zeromq/goczmq"
 )

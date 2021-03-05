@@ -6,7 +6,7 @@
 package rebuilddb
 
 import (
-	"github.com/romanornr/blockexplorer/mongodb"
+	"github.com/devt3000/blockexplorer/mongodb"
 	"log"
 	"testing"
 )

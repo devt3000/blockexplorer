@@ -41,7 +41,7 @@ var (
 )
 
 // config path returns a string which should look
-// like: /home/username/go/src/github.com/romanornr/projectname/client/config
+// like: /home/username/go/src/github.com/devt3000/projectname/client/config
 func getConfigPath() string {
 	path := strings.Split(basepath, "client")
 	configPath := path[:len(path)-1][0] + "config"

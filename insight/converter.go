@@ -8,8 +8,8 @@ package insight
 import (
 	"github.com/btcsuite/btcd/btcjson"
 	"github.com/btcsuite/btcutil"
-	"github.com/romanornr/blockexplorer/insightjson"
-	"github.com/romanornr/blockexplorer/mongodb"
+	"github.com/devt3000/blockexplorer/insightjson"
+	"github.com/devt3000/blockexplorer/mongodb"
 )
 
 var dao = mongodb.MongoDAO{

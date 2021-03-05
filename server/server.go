@@ -2,8 +2,8 @@ package server
 
 import (
 	"flag"
-	"github.com/Sirupsen/logrus"
-	"github.com/romanornr/blockexplorer/zmq"
+	"github.com/sirupsen/logrus"
+	"../blockexplorer/zmq"
 	"github.com/spf13/viper"
 	"html/template"
 	"net/http"

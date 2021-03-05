@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/btcsuite/btcd/btcjson"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/romanornr/blockexplorer/blockdata"
+	"github.com/devt3000/blockexplorer/blockdata"
 	"testing"
 )
 

@@ -7,15 +7,15 @@ package Reorg
 
 import (
 	"fmt"
-	"github.com/Sirupsen/logrus"
-	"github.com/romanornr/blockexplorer/insightjson"
-	"github.com/romanornr/blockexplorer/mongodb"
-	"github.com/romanornr/blockexplorer/notification"
+	"github.com/sirupsen/logrus"
+	"github.com/devt3000/blockexplorer/insightjson"
+	"github.com/devt3000/blockexplorer/mongodb"
+	"github.com/devt3000/blockexplorer/notification"
 	"testing"
 
 	"github.com/btcsuite/btcd/btcjson"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/romanornr/blockexplorer/blockdata"
+	"github.com/devt3000/blockexplorer/blockdata"
 )
 
 var dao = mongodb.MongoDAO{

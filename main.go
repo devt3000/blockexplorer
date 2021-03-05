@@ -6,7 +6,7 @@
 package main
 
 import (
-	"github.com/romanornr/blockexplorer/server"
+	"github.com/devt3000/blockexplorer/server"
 )
 
 func main() {

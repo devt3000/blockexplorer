@@ -8,7 +8,7 @@ package daos
 import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/globalsign/mgo"
-	"github.com/romanornr/blockexplorer/insightjson"
+	"github.com/devt3000/blockexplorer/insightjson"
 )
 
 type BlockDAO struct {

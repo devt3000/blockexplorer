@@ -6,10 +6,10 @@
 package main
 
 import (
-	"github.com/Sirupsen/logrus"
-	"github.com/romanornr/blockexplorer/blockdata"
-	"github.com/romanornr/blockexplorer/cmd/rebuilddb"
-	"github.com/romanornr/blockexplorer/mongodb"
+	"github.com/sirupsen/logrus"
+	"github.com/devt3000/blockexplorer/blockdata"
+	"github.com/devt3000/blockexplorer/cmd/rebuilddb"
+	"github.com/devt3000/blockexplorer/mongodb"
 )
 
 var dao = mongodb.MongoDAO{

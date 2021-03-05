@@ -6,10 +6,10 @@
 package Reorg
 
 import (
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/btcsuite/btcd/btcjson"
-	"github.com/romanornr/blockexplorer/insightjson"
-	"github.com/romanornr/blockexplorer/mongodb"
+	"github.com/devt3000/blockexplorer/insightjson"
+	"github.com/devt3000/blockexplorer/mongodb"
 )
 
 func Check(dao mongodb.MongoDAO, block *btcjson.GetBlockVerboseResult) (reorg bool, tip insightjson.BlockResult, newBlock *btcjson.GetBlockVerboseResult) {

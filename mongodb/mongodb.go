@@ -7,12 +7,12 @@ package mongodb
 
 import (
 	"fmt"
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcutil"
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
-	"github.com/romanornr/blockexplorer/insightjson"
+	"github.com/devt3000/blockexplorer/insightjson"
 )
 
 type MongoDAO struct {

@@ -6,8 +6,8 @@
 package rebuilddb
 
 import (
-	"github.com/romanornr/blockexplorer/blockdata"
-	"github.com/romanornr/blockexplorer/notification"
+	"github.com/devt3000/blockexplorer/blockdata"
+	"github.com/devt3000/blockexplorer/notification"
 	"gopkg.in/cheggaaa/pb.v2"
 )
 
